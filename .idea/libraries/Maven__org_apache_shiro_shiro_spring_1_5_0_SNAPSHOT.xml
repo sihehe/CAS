@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.shiro:shiro-spring:1.5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://E:/repository/org/apache/shiro/shiro-spring/1.5.0-SNAPSHOT/shiro-spring-1.5.0-20190626.175017-29.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/org/apache/shiro/shiro-spring/1.5.0-SNAPSHOT/shiro-spring-1.5.0-20190626.175017-29-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/org/apache/shiro/shiro-spring/1.5.0-SNAPSHOT/shiro-spring-1.5.0-20190626.175017-29-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

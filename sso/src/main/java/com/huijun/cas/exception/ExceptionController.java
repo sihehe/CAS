@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class ExceptionController {
     // 捕捉 MyRealm 抛出的异常
     @ExceptionHandler(AccountException.class)
-    public String handleShiroException(Exception ex) {
+    public static String handleShiroException(Exception ex) {
         return ex.getMessage();
     }
 }

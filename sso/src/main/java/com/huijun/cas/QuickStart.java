@@ -24,19 +24,4 @@ public class QuickStart {
         SpringApplication.run(QuickStart.class,args);
     }
 
-    @Bean
-    public Realm getRealm(){
-        return new MyRealm();
-    }
-
-    @Bean
-    public ShiroFilterChainDefinition shiroFilterChainDefinition() {
-        DefaultShiroFilterChainDefinition chainDefinition = new DefaultShiroFilterChainDefinition();
-        chainDefinition.addPathDefinition("/logout", "logout");
-        chainDefinition.addPathDefinition("/login.html", "anon");//可以匿名访问
-        chainDefinition.addPathDefinition("/error.html", "anon");//可以匿名访问
-        //其它路径均需要登录
-        chainDefinition.addPathDefinition("/**", "authc");
-        return chainDefinition;
-    }
 }
